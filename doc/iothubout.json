@@ -1,0 +1,86 @@
+
+{
+  "body": {
+    "PublishTimestamp": "2019-06-14 05:22:28",
+    "Content": [
+      {
+        "HwId": "PowerMeter-0a:01:01:01:01:01",
+        "Data": [
+          {
+            "CorrelationId": "MessageType1",
+            "SourceTimestamp": "2019-06-14 05:22:23",
+            "Values": [
+              {
+                "DisplayName": "Full Bags",
+                "Address": "45001",
+                "Value": "61440"
+              },
+              {
+                "DisplayName": "Full Bags",
+                "Address": "45002",
+                "Value": "17676"
+              }
+            ]
+          },
+          {
+            "CorrelationId": "MessageType2",
+            "SourceTimestamp": "2019-06-14 05:22:25",
+            "Values": [
+              {
+                "DisplayName": "Test",
+                "Address": "400002",
+                "Value": "0"
+              }
+            ]
+          },
+          {
+            "CorrelationId": "MessageType1",
+            "SourceTimestamp": "2019-06-14 05:22:25",
+            "Values": [
+              {
+                "DisplayName": "Full Bags",
+                "Address": "45001",
+                "Value": "61440"
+              },
+              {
+                "DisplayName": "Full Bags",
+                "Address": "45002",
+                "Value": "17676"
+              }
+            ]
+          },
+          {
+            "CorrelationId": "MessageType2",
+            "SourceTimestamp": "2019-06-14 05:22:27",
+            "Values": [
+              {
+                "DisplayName": "Test",
+                "Address": "400002",
+                "Value": "0"
+              }
+            ]
+          },
+          {
+            "CorrelationId": "MessageType1",
+            "SourceTimestamp": "2019-06-14 05:22:27",
+            "Values": [
+              {
+                "DisplayName": "Full Bags",
+                "Address": "45001",
+                "Value": "61440"
+              },
+              {
+                "DisplayName": "Full Bags",
+                "Address": "45002",
+                "Value": "17676"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "applicationProperties": {
+    "content-type": "application/edge-modbus-json"
+  }
+}

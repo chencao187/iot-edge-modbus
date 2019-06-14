@@ -1,0 +1,98 @@
+{
+  "properties.desired": {
+    "PublishInterval": "1000",
+    "SlaveConfigs": {
+      "Slave01": {
+        "SlaveConnection": "192.168.56.237",
+        "HwId": "PowerMeter-0a:01:01:01:01:01",
+        "Operations": {
+          "Op01": {
+            "PollingInterval": "1000",
+            "UnitId": "1",
+            "StartAddress": "40504",
+            "Count": "1",
+            "DisplayName": "Latched Err Status - 503"
+          }
+        }
+      },
+      "Slave02": {
+        "SlaveConnection": "192.168.56.237",
+        "HwId": "PowerMeter-0a:01:01:01:01:01",
+        "Operations": {
+          "Op01": {
+            "PollingInterval": "1000",
+            "UnitId": "1",
+            "StartAddress": "40509",
+            "Count": "1",
+            "DisplayName": "Generic Status - 508"
+          }
+        }
+      },
+      "Slave03": {
+        "SlaveConnection": "192.168.56.237",
+        "HwId": "PowerMeter-0a:01:01:01:01:01",
+        "Operations": {
+          "Op01": {
+            "PollingInterval": "1000",
+            "UnitId": "1",
+            "StartAddress": "41001",
+            "Count": "1",
+            "DisplayName": "Product Number - 1000"
+          }
+        }
+      },
+      "Slave04": {
+        "SlaveConnection": "192.168.56.237",
+        "HwId": "PowerMeter-0a:01:01:01:01:01",
+        "Operations": {
+          "Op01": {
+            "PollingInterval": "1000",
+            "UnitId": "1",
+            "StartAddress": "45001",
+            "Count": "1",
+            "DisplayName": "Full Bags - 5000"
+          }
+        }
+      },
+      "Slave05": {
+        "SlaveConnection": "192.168.56.237",
+        "HwId": "PowerMeter-0a:01:01:01:01:01",
+        "Operations": {
+          "Op01": {
+            "PollingInterval": "1000",
+            "UnitId": "1",
+            "StartAddress": "45011",
+            "Count": "1",
+            "DisplayName": "Target Weight - 5010"
+          }
+        }
+      },
+      "Slave06": {
+        "SlaveConnection": "192.168.56.237",
+        "HwId": "PowerMeter-0a:01:01:01:01:01",
+        "Operations": {
+          "Op01": {
+            "PollingInterval": "1000",
+            "UnitId": "1",
+            "StartAddress": "45013",
+            "Count": "1",
+            "DisplayName": "Total Dump Weight - 5012"
+          }
+        }
+      },
+      "Slave07": {
+        "SlaveConnection": "192.168.56.237",
+        "HwId": "PowerMeter-0a:01:01:01:01:01",
+        "Operations": {
+          "Op01": {
+            "PollingInterval": "1000",
+            "UnitId": "1",
+            "StartAddress": "45017",
+            "Count": "1",
+            "DisplayName": "Bags Per Minute - 5016"
+          }
+        }
+      }
+    }
+  }
+}
